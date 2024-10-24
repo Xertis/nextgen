@@ -1,0 +1,12 @@
+{
+    "rotation": "pipe",
+    "material": "base:wood",
+    "texture-faces": [
+        "needles_wood",
+        "needles_wood",
+        "needles_wood_top",
+        "needles_wood_top",
+        "needles_wood",
+        "needles_wood"
+    ]
+}
