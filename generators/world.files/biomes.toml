@@ -1,29 +1,3 @@
-[forest]
-parameters = [
-    {weight=1, value=0},
-    {weight=0.5, value=0.2}
-]
-layers = [
-    {below-sea-level=false, height=1, block="base:grass_block"},
-    {below-sea-level=false, height=7, block="base:dirt"},
-    {height=-1, block="base:stone"},
-    {height=1, block="base:bazalt"}
-]
-sea-layers = [
-    {height=-1, block="base:water"}
-]
-plant-chance = 0.4
-plants = [
-    {weight=1, block="base:grass"},
-    {weight=0.03, block="base:flower"}
-]
-structure-chance = 0.032
-structures = [
-    {name="tree0", weight=1},
-    {name="tree1", weight=1},
-    {name="tree2", weight=1},
-]
-
 
 [desert]
 parameters = [
@@ -66,4 +40,56 @@ structures = [
     {name="bush0", weight=3},
     {name="bush1", weight=3},
     {name="bush2", weight=3}
+]
+
+[forest]
+parameters = [
+    {weight=1, value=0},
+    {weight=0.5, value=0.2}
+]
+layers = [
+    {below-sea-level=false, height=1, block="base:grass_block"},
+    {below-sea-level=false, height=7, block="base:dirt"},
+    {height=-1, block="base:stone"},
+    {height=1, block="base:bazalt"}
+]
+sea-layers = [
+    {height=-1, block="base:water"}
+]
+plant-chance = 0.4
+plants = [
+    {weight=1, block="base:grass"},
+    {weight=0.03, block="base:flower"}
+]
+structure-chance = 0.032
+structures = [
+    {name="tree0", weight=1},
+    {name="tree1", weight=1},
+    {name="tree2", weight=1},
+]
+
+[taiga]
+parameters = [
+    {weight=0.1, value=0},
+    {weight=0.2, value=0.2}
+]
+layers = [
+    {below-sea-level=false, height=3, block="nextgen:snow_1"},
+    {below-sea-level=false, height=7, block="nextgen:rocky_dirt"},
+    {height=-1, block="base:stone"},
+    {height=1, block="base:bazalt"}
+]
+sea-layers = [
+    {height=1, block="nextgen:ice"},
+    {height=-1, block="base:water"}
+]
+plant-chance = 0.4
+plants = [
+    {weight=1, block="nextgen:snow_grass"},
+    {weight=0.5, block="nextgen:snow_4"},
+    {weight=0.03, block="nextgen:withered_bush"}
+]
+structure-chance = 0.0132
+structures = [
+    {name="taiga_tree0", weight=1},
 ]

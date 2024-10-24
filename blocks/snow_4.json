@@ -1,5 +1,5 @@
 {
-    "material": "maybeblocks:snow",
+    "material": "nextgen:snow",
     "texture-faces": [
         "snow_small",
         "snow_small",
@@ -10,5 +10,6 @@
     ],
     "model": "aabb",
     "hitbox": [0.0, 0.0, 0.0, 1.0, 0.1, 1.0],
+    "obstacle": false,
     "light-passing": true
 }
